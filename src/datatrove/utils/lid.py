@@ -67,7 +67,7 @@ class FT176LID(FastTextLID):
 class GlotLID(FastTextLID):
     MODEL_SUBFOLDER = "glotlid"
 
-    def __init__(self, languages: list[str] | None = None, k: int = -1, version: str = "v3") -> None:
+    def __init__(self, languages: list[str] | None = None, k: int = -1, version: str = "v4") -> None:
         """
         Args:
             languages (list[str]): Languages to predict
